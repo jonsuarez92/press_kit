@@ -11,12 +11,16 @@ function App() {
   return (
     <main className="App">
       <>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
+        <div>
+          <div className="backGroundI">
+            <NavBar />
+            <Routes>
+              <Route path="/" element={<Home />} />
 
-        </Routes>
-        <Footer />
+            </Routes>
+            <Footer />
+          </div>
+        </div>
       </>
     </main>
   );

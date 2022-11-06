@@ -1,14 +1,13 @@
 .contactForm {
-    margin: auto;
+    margin: 10px;
     padding: 3vmin;
     background-color: grey;
     border: 0.1vmin solid;
     border-radius: 1vmin;
     width: 250px;
     opacity: 0.8;
+    text-align: left;
+    float: right;
   }
 
-  .formContainer{
-   
-    text-align: left;
-  }
+  
