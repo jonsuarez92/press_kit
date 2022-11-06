@@ -35,6 +35,7 @@ const ContactForm = () => {
             </div> */}
             <div className='formContainer'>
                 <div className='contactForm'>
+                    <div style={{ textAlign: 'center' }}>Contact Me</div>
                     <Form ref={form} onSubmit={sendEmail}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Name</Form.Label>
