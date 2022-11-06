@@ -10,7 +10,7 @@ const NavBar = () => {
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">DJ_Lance</Navbar.Brand>
+                    <Navbar.Brand href="#home">DJLace</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#features">Gallery</Nav.Link>

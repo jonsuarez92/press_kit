@@ -1,9 +1,21 @@
-import React from 'react'
+import React from "react";
+import { SocialIcon } from 'react-social-icons';
 
-const Footer = () => {
+
+import "./Footer.css";
+
+function Footer() {
     return (
-        <div>Footer</div>
-    )
+        <div className="footer">
+            <div className="socialMedia">
+                <SocialIcon url="https://linkedin.com/in/jonathan-suarez" />
+                <SocialIcon url="https://instagram.com/deejaylace?igshid=YmMyMTA2M2Y=" />
+
+
+            </div>
+            <p> &copy; 2022 DJLace.com</p>
+        </div>
+    );
 }
 
-export default Footer
+export default Footer;
