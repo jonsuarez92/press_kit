@@ -39,21 +39,25 @@ const ContactForm = () => {
                     <Form ref={form} onSubmit={sendEmail}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Name</Form.Label>
-                            <Form.Control type="text" name="user_name" placeholder=" Enter Name" />
+                            <Form.Control type="text" name="user_name" placeholder=" Enter Name" required />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label>Email</Form.Label>
-                            <Form.Control type="email" name="user_email" placeholder=" Password" />
+                            <Form.Control type="email" name="user_email" placeholder=" Enter Email" required />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicCheckbox">
-
                         </Form.Group>
+                        <Form.Group className="mb-3" controlId="formBasicEmail">
+                            <Form.Label>Subject</Form.Label>
+                            <Form.Control type="text" name="subject" placeholder="Subject" required />
+                        </Form.Group>
+
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Message</Form.Label>
                             <textarea name="message" />
-
                         </Form.Group>
+
                         <Button value="Send" type="submit">
                             Send
                         </Button>
